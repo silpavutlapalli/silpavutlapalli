@@ -4,11 +4,10 @@ choice == int((input(
 1-celsius
 2-fahernheit
 3-kelvin                   
-'''))
+''')))
 
-
-   def get result() -> str:
-""" executes the code"""
+def get result() --> str:
+   """ executes the code"""
 if choice == 1:
     celsius = ((temperature - 32) * 5) / 9
 return f'The temperature converted from {temperature} fahrenheit to celsius {celsius}'
