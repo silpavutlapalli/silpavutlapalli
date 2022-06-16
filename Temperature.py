@@ -1,5 +1,5 @@
 temperature = float(input("temperature value in degree celsius:")
-choice = int((input(
+choice == int((input(
      ''' choose values in specific options
 1-celsius
 2-fahernheit
